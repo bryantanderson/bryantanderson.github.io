@@ -32,7 +32,9 @@ const Experience = () => {
 			title: "Software Engineer",
 			company: "Unilite",
 			description: `[NL]
-				I used express and react and yadyadada
+				I played a pivotal role in developing features for Unilite's AI assistant, mainly on the backend side. 
+				Their stack was MERN with a NextJS frontend. This involved developing routes in ExpressJS, manipulation of
+				documents in MongoDB, and (of course) OpenAI's GPT-4.
 			`,
 		},
 		{

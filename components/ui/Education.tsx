@@ -10,17 +10,17 @@ const Education = () => {
 
 	const education = [
 		{
+			title: "Berkeley SkyDeck, Batch 18",
+			institute:
+				"University of California, Berkeley, Haas School of Business",
+		},
+		{
 			title: "Bachelor of Science, major in Computing and Software Systems",
 			institute: "University of Melbourne",
 		},
 		{
 			title: "Foundational Studies",
 			institute: "Trinity College, University of Melbourne",
-		},
-		{
-			title: "Berkeley SkyDeck, Batch 18",
-			institute:
-				"University of California, Berkeley, Haas School of Business",
 		},
 	];
 
