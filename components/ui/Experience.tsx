@@ -6,7 +6,7 @@ import ExperienceCard from "../sub/ExperienceCard";
 import { slideInFromRight } from "@/utils/motion";
 
 const Experience = () => {
-	const delay: number = 0.75;
+	const delay: number = 0.5;
 	const experience = [
 		{
 			title: "Founding Engineer",
@@ -32,8 +32,8 @@ const Experience = () => {
 			title: "Software Engineer",
 			company: "Unilite",
 			description: `[NL]
-
-			`
+				I used express and react and yadyadada
+			`,
 		},
 		{
 			title: "Software Engineering Intern",
@@ -52,7 +52,8 @@ const Experience = () => {
 		>
 			<motion.div
 				initial="hidden"
-				animate="visible"
+				whileInView="visible"
+				viewport={{ once: true }}
 				variants={slideInFromRight(delay)}
 				className="flex flex-col justify-center items-center text-4xl h-auto w-auto"
 			>

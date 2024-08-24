@@ -24,7 +24,6 @@ export const HeroContent = () => {
 				</motion.div>
 
 				<motion.div
-					// slide in from left accepts a delay
 					variants={slideInFromLeft(0.5)}
 					className="flex flex-col gap-6 mt-6 text-4xl font-bold text-white max-w-[600px] w-auto h-auto"
 				>
@@ -36,7 +35,6 @@ export const HeroContent = () => {
 						</span>
 					</span>
 				</motion.div>
-
 				<motion.p
 					variants={slideInFromLeft(0.8)}
 					className="text-lg text-gray-400 my-5 max-w-[600px]"
@@ -44,7 +42,7 @@ export const HeroContent = () => {
 					I'm a backend focused software engineer with a passion for
 					solving problems and building start-ups
 				</motion.p>
-				<motion.div variants={slideInFromLeft(1)}>
+				<motion.div className="flex flex-row" variants={slideInFromLeft(1)}>
 					<TransparentDropdown />
 				</motion.div>
 			</div>

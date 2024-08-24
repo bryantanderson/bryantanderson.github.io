@@ -17,7 +17,7 @@ const ExperienceCard = ({ title, company, description }: Props) => {
 				{description.split("[NL]").map((text) => {
 					return (
 						<>
-							<p key={text.length}>{text}</p>
+							<p key={text}>{text}</p>
 							<br></br>
 						</>
 					);
