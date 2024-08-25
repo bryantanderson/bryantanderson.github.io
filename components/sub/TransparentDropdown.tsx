@@ -19,7 +19,7 @@ const TransparentDropdown = () => {
         {
             label: "Skills",
             id: "skills",
-        }
+        },
     ];
 
 	const optionVariants = {

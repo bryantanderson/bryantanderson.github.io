@@ -26,6 +26,7 @@ const Skills = () => {
 				<div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
 					{Languages.map((image: any, index: number) => (
 						<SkillImage
+							key={image.src}
 							src={image.src}
 							width={image.width}
 							height={image.height}
@@ -36,6 +37,7 @@ const Skills = () => {
 				<div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
 					{Technologies.map((image: any, index: number) => (
 						<SkillImage
+							key={image.src}
 							src={image.src}
 							width={image.width}
 							height={image.height}

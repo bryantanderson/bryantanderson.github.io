@@ -39,7 +39,7 @@ export const HeroContent = () => {
 					className="text-lg text-gray-400 my-5 max-w-[600px]"
 				>
 					I'm a backend focused software engineer with a passion for
-					solving problems and building start-ups
+					solving problems.
 				</motion.p>
 				<motion.div className="flex flex-row" variants={slideInFromLeft(1)}>
 					<TransparentDropdown />
